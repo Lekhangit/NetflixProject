@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../stylesheets/search.css">
+    <script
+      src="https://kit.fontawesome.com/7433d3320f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Search Movies</title>
+</head>
+<body>
+    <h1>Search Movie</h1>
+    <i class="fa-solid fa-house" id="logo" onclick="goToHome()"></i>
+    <form id="searchForm">
+        <label for="id">Movie ID:</label>
+        <input type="text" id="id" name="id"><br>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" maxlength="255" placeholder="Enter movie title" title="Enter the movie title" value=""><br>
+        <label for="rating">Rating:</label>
+        <input type="number" id="ratingFr" name="ratingFr" step="0.1" min="0" max="10" placeholder="From/gte">
+        <input type="number" id="ratingTo" name="ratingTo" step="0.1" min="0" max="10" placeholder="To/lte"><br>
+        <button type="submit">Search</button>
+    </form>
+    <div id="searchResults"></div>
+    <div id="paginationControls"></div>
+
+    <script>
+        const searchForm = document.getElementById('searchForm');
+        const searchResultsContainer = document.getElementById('searchResults');
+        const paginationControls = document.getElementById('paginationControls');
+        let currentPage = 1;
+        const moviesPerPage = 8;
+
+        searchForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            fetchAndDisplayMovies();
+        });
+
+        function fetchAndDisplayMovies() {
+            const title = document.getElementById('title').value;
+            const ratingFr = document.getElementById('ratingFr').value;
+            const ratingTo = document.getElementById('ratingTo').value;
+            const id = document.getElementById('id').value;
+
+            fetch(`/read?id=${id}&title=${title}&ratingFr=${ratingFr}&ratingTo=${ratingTo}`)
+                .then(response => response.json())
+                .then(movies => {
+                    searchResultsContainer.innerHTML = '';
+                    if (movies.length > 0) {
+                        movies.sort((a, b) => parseInt(b.id.substring(3)) - parseInt(a.id.substring(3)));
+                        displayMovies(movies);
+                    } else {
+                        const noResultsMessage = document.createElement('p');
+                        noResultsMessage.textContent = 'Không tìm thấy phim phù hợp.';
+                        searchResultsContainer.appendChild(noResultsMessage);
+                        updatePaginationControls();
+                    }
+                })
+                .catch(error => console.error('Error fetching search results:', error));
+        }
+
+        function displayMovies(movies) {
+            searchResultsContainer.innerHTML = '';
+            movies.forEach(movie => {
+                const movieElement = document.createElement('div');
+                movieElement.classList.add('movie');
+
+                movieElement.innerHTML = `
+                    <img src="${movie.imagePath}" alt="${movie.title}" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px;">
+                    <div class="movie-info">
+                        <p><strong>Title:</strong> ${movie.title}</p>
+                        <p><strong>Genre:</strong> ${movie.genre}</p>
+                        <p><strong>Release Year:</strong> ${movie.releaseYear}</p>
+                        <p><strong>Duration:</strong> ${movie.durationMinutes} min</p>
+                        <p><strong>Rating:</strong> ${movie.rating}</p>
+                    </div>
+                `;
+                searchResultsContainer.appendChild(movieElement);
+            });
+            updatePaginationControls();
+        }
+
+        function updatePaginationControls() {
+            paginationControls.innerHTML = '';
+            const totalPages = Math.ceil(searchResultsContainer.children.length / moviesPerPage);
+
+            for (let i = 1; i <= totalPages; i++) {
+                const button = document.createElement('button');
+                button.innerText = i;
+                button.addEventListener('click', () => {
+                    currentPage = i;
+                    displayCurrentPage();
+                });
+                paginationControls.appendChild(button);
+            }
+            displayCurrentPage();
+        }
+
+        function displayCurrentPage() {
+            const startIndex = (currentPage - 1) * moviesPerPage;
+            const endIndex = Math.min(startIndex + moviesPerPage, searchResultsContainer.children.length);
+
+            for (let i = 0; i < searchResultsContainer.children.length; i++) {
+                const movie = searchResultsContainer.children[i];
+                if (i >= startIndex && i < endIndex) {
+                    movie.style.display = 'block';
+                } else {
+                    movie.style.display = 'none';
+                }
+            }
+        }
+
+        function goToHome() {
+            window.location.href = 'home.html';
+        }
+    </script>
+</body>
+</html>

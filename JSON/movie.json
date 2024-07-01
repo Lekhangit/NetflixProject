@@ -1,0 +1,722 @@
+[{
+    "_id": {
+      "$oid": "662697d2ff447700240cfa38"
+    },
+    "title": "Superman Legacy",
+    "genre": "Supernatural",
+    "releaseYear": 2025,
+    "durationMinutes": 100,
+    "rating": 10,
+    "id": "MOV0001",
+    "imagePath": "image-1713805266332-vdqmcmb0m-superman__legacy__2025__by_sahinduezguen_dg12gf5-fullview.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "662698fb6e6b868d329c08d6"
+    },
+    "title": "Deadpool 3",
+    "genre": "Supernatural",
+    "releaseYear": 2024,
+    "durationMinutes": 100,
+    "rating": 7,
+    "id": "MOV0002",
+    "imagePath": "image-1713805563609-vjund272y-DEADPOOL-3-POSTER-min.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b2819dab8a3be2d34f25"
+    },
+    "title": "The Boys",
+    "genre": "Supernatural",
+    "releaseYear": 2023,
+    "durationMinutes": 90,
+    "rating": 8,
+    "id": "MOV0003",
+    "imagePath": "image-1713812097782-ch0vqaupz-MV5BODI5NDUxNjAtZTIxYS00N2M1LWI5NmItODBmM2QyNTU4ZDY4XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b2819dab8a3be2d34f26"
+    },
+    "title": "Joker",
+    "genre": "Drama",
+    "releaseYear": 2026,
+    "durationMinutes": 178,
+    "rating": 9.6,
+    "id": "MOV0004",
+    "imagePath": "image-1713812097787-wo911c0bw-37472853072716025-xqjsuwiihnPk5YTYgJQRTSfkQr6.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b37e9dab8a3be2d34f27"
+    },
+    "title": "Madame Web",
+    "genre": "Supernatural",
+    "releaseYear": 2023,
+    "durationMinutes": 176,
+    "rating": 5,
+    "id": "MOV0005",
+    "imagePath": "image-1713812350680-gss9dy1sq-gbz5wAan81Z2USmW8O1wMFfhkNO.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b37e9dab8a3be2d34f28"
+    },
+    "title": "Dune",
+    "genre": "Adventure",
+    "releaseYear": 2024,
+    "durationMinutes": 189,
+    "rating": 10,
+    "id": "MOV0006",
+    "imagePath": "image-1713812350682-lkvlzmo2a-Haley-Turnbull_Dune2.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b37e9dab8a3be2d34f29"
+    },
+    "title": "Godzilla x Kong",
+    "genre": "Supernatural",
+    "releaseYear": 2024,
+    "durationMinutes": 117,
+    "rating": 6.8,
+    "id": "MOV0007",
+    "imagePath": "image-1713812350695-qc93jyrgn-godzilla-x-kong--2024--official-movie-poster-308387.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66274d0e15f4580af29be584"
+    },
+    "title": "The Garfield Movie",
+    "genre": "Animation",
+    "releaseYear": 2024,
+    "durationMinutes": 111,
+    "rating": 7.9,
+    "id": "MOV0008",
+    "imagePath": "image-1713851662890-abmj20d54-MV5BMzFiYjk5ODMtMDZmYS00ZGRhLThkZWMtZjljZmE5NzBiMzYyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66274d0e15f4580af29be585"
+    },
+    "title": "Mai",
+    "genre": "Drama",
+    "releaseYear": 2024,
+    "durationMinutes": 131,
+    "rating": 6.8,
+    "id": "MOV0009",
+    "imagePath": "image-1713851662894-76k3inmml-MV5BMjAwMGEwNTgtMWJmOC00MDQ5LTljMzYtMmE0YmE3OWM3NzEwXkEyXkFqcGdeQXVyMTAyNDY2OTAy._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66274d0e15f4580af29be586"
+    },
+    "title": "12 Monkeys",
+    "genre": "Thriller",
+    "releaseYear": 1995,
+    "durationMinutes": 129,
+    "rating": 8,
+    "id": "MOV0010",
+    "imagePath": "image-1713851662907-imaslewtf-MV5BN2Y2OWU4MWMtNmIyMy00YzMyLWI0Y2ItMTcyZDc3MTdmZDU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY1200_CR88,0,630,1200_AL_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "662697d2ff447700240cfa38"
+    },
+    "title": "Superman Legacy",
+    "genre": "Supernatural",
+    "releaseYear": 2025,
+    "durationMinutes": 100,
+    "rating": 10,
+    "id": "MOV0001",
+    "imagePath": "image-1713805266332-vdqmcmb0m-superman__legacy__2025__by_sahinduezguen_dg12gf5-fullview.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "662698fb6e6b868d329c08d6"
+    },
+    "title": "Deadpool 3",
+    "genre": "Supernatural",
+    "releaseYear": 2024,
+    "durationMinutes": 100,
+    "rating": 7,
+    "id": "MOV0002",
+    "imagePath": "image-1713805563609-vjund272y-DEADPOOL-3-POSTER-min.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b2819dab8a3be2d34f25"
+    },
+    "title": "The Boys",
+    "genre": "Supernatural",
+    "releaseYear": 2023,
+    "durationMinutes": 90,
+    "rating": 8,
+    "id": "MOV0003",
+    "imagePath": "image-1713812097782-ch0vqaupz-MV5BODI5NDUxNjAtZTIxYS00N2M1LWI5NmItODBmM2QyNTU4ZDY4XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b2819dab8a3be2d34f26"
+    },
+    "title": "Joker",
+    "genre": "Drama",
+    "releaseYear": 2026,
+    "durationMinutes": 178,
+    "rating": 9.6,
+    "id": "MOV0004",
+    "imagePath": "image-1713812097787-wo911c0bw-37472853072716025-xqjsuwiihnPk5YTYgJQRTSfkQr6.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b37e9dab8a3be2d34f27"
+    },
+    "title": "Madame Web",
+    "genre": "Supernatural",
+    "releaseYear": 2023,
+    "durationMinutes": 176,
+    "rating": 5,
+    "id": "MOV0005",
+    "imagePath": "image-1713812350680-gss9dy1sq-gbz5wAan81Z2USmW8O1wMFfhkNO.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b37e9dab8a3be2d34f28"
+    },
+    "title": "Dune",
+    "genre": "Adventure",
+    "releaseYear": 2024,
+    "durationMinutes": 189,
+    "rating": 10,
+    "id": "MOV0006",
+    "imagePath": "image-1713812350682-lkvlzmo2a-Haley-Turnbull_Dune2.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b37e9dab8a3be2d34f29"
+    },
+    "title": "Godzilla x Kong",
+    "genre": "Supernatural",
+    "releaseYear": 2024,
+    "durationMinutes": 117,
+    "rating": 6.8,
+    "id": "MOV0007",
+    "imagePath": "image-1713812350695-qc93jyrgn-godzilla-x-kong--2024--official-movie-poster-308387.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66274d0e15f4580af29be584"
+    },
+    "title": "The Garfield Movie",
+    "genre": "Animation",
+    "releaseYear": 2024,
+    "durationMinutes": 111,
+    "rating": 7.9,
+    "id": "MOV0008",
+    "imagePath": "image-1713851662890-abmj20d54-MV5BMzFiYjk5ODMtMDZmYS00ZGRhLThkZWMtZjljZmE5NzBiMzYyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66274d0e15f4580af29be585"
+    },
+    "title": "Mai",
+    "genre": "Drama",
+    "releaseYear": 2024,
+    "durationMinutes": 131,
+    "rating": 6.8,
+    "id": "MOV0009",
+    "imagePath": "image-1713851662894-76k3inmml-MV5BMjAwMGEwNTgtMWJmOC00MDQ5LTljMzYtMmE0YmE3OWM3NzEwXkEyXkFqcGdeQXVyMTAyNDY2OTAy._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66274d0e15f4580af29be586"
+    },
+    "title": "12 Monkeys",
+    "genre": "Thriller",
+    "releaseYear": 1995,
+    "durationMinutes": 129,
+    "rating": 8,
+    "id": "MOV0010",
+    "imagePath": "image-1713851662907-imaslewtf-MV5BN2Y2OWU4MWMtNmIyMy00YzMyLWI0Y2ItMTcyZDc3MTdmZDU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY1200_CR88,0,630,1200_AL_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275bdd979a287d68027b1e"
+    },
+    "title": "Poor things",
+    "genre": "Drama",
+    "releaseYear": 2023,
+    "durationMinutes": 100,
+    "rating": 10,
+    "id": "MOV0011",
+    "imagePath": "image-1713855453243-47tlggu7g-MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhZDk3NGJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275cac979a287d68027b1f"
+    },
+    "title": "Napoleon",
+    "genre": "History",
+    "releaseYear": 2023,
+    "durationMinutes": 124,
+    "rating": 8.9,
+    "id": "MOV0012",
+    "imagePath": "image-1713855660695-p9288nuhq-MV5BZWIzNDAxMTktMDMzZS00ZjJmLTlhNjYtOGUxYmZlYzVmOGE4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275d49979a287d68027b20"
+    },
+    "title": "65 ",
+    "genre": "Sci-Fi",
+    "releaseYear": 2023,
+    "durationMinutes": 213,
+    "rating": 6.8,
+    "id": "MOV0013",
+    "imagePath": "image-1713855817476-54x7ih05v-MV5BOWQ2ZTQxYzctZDI2Yy00YzU1LTkyYWUtNDdlNzBkOWQzMTkxXkEyXkFqcGdeQXVyMTU2Mjg2NjE2._V1_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275e5e5f933d3e2ce285a9"
+    },
+    "title": "Carter",
+    "genre": "Sci-Fi",
+    "releaseYear": 2023,
+    "durationMinutes": 134,
+    "rating": 8.9,
+    "id": "MOV0014",
+    "imagePath": "image-1713856094106-2f4myc8wb-MV5BMDk2YTQ3OGQtOWI5Yi00ZWI2LTk5MGQtOTUyNzFkZDcyNDM0XkEyXkFqcGdeQXVyMTQ3ODE5MjY0._V1_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275f315f933d3e2ce285aa"
+    },
+    "title": "Monica",
+    "genre": "Adventure",
+    "releaseYear": 2022,
+    "durationMinutes": 135,
+    "rating": 4,
+    "id": "MOV0015",
+    "imagePath": "image-1713856305750-k3xohtm7f-MV5BZjAxMWI4MzEtNjA5MC00NjM5LWFmN2YtMWZiYzY3ZDZhM2EwXkEyXkFqcGdeQXVyMTU3NDU4MDg2._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275f605f933d3e2ce285ab"
+    },
+    "title": "The North Man",
+    "genre": "Adventure",
+    "releaseYear": 2022,
+    "durationMinutes": 231,
+    "rating": 8,
+    "id": "MOV0016",
+    "imagePath": "image-1713856352060-24ugn3b3k-MV5BMzVlMmY2NTctODgwOC00NDMzLWEzMWYtM2RiYmIyNTNhMTI0XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275f9d5f933d3e2ce285ac"
+    },
+    "title": "Showing Up",
+    "genre": "Comedy",
+    "releaseYear": 2022,
+    "durationMinutes": 178,
+    "rating": 9,
+    "id": "MOV0017",
+    "imagePath": "image-1713856411691-canc76d97-MV5BNTIxODkxMDYtNDIxMC00NzU4LTgzYjgtZjkyNDVlNmRmNDNhXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275ff65f933d3e2ce285ae"
+    },
+    "title": "The Batman",
+    "genre": "action",
+    "releaseYear": 2022,
+    "durationMinutes": 243,
+    "rating": 8.6,
+    "id": "MOV0018",
+    "imagePath": "image-1713856502628-mqt1scx1s-MV5BM2MyNTAwZGEtNTAxNC00ODVjLTgzZjUtYmU0YjAzNmQyZDEwXkEyXkFqcGdeQXVyNDc2NTg3NzA@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6627602f5f933d3e2ce285af"
+    },
+    "title": "Nope",
+    "genre": "Scary",
+    "releaseYear": 2022,
+    "durationMinutes": 185,
+    "rating": 1.8,
+    "id": "MOV0019",
+    "imagePath": "image-1713856559562-wmzreqpbn-MV5BOGJhYzAwN2MtNjA1Ny00ZjJiLWFmNzYtMDgzNTUzYjc5NTIzXkEyXkFqcGdeQXVyMTUzOTcyODA5._V1_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6627605f5f933d3e2ce285b0"
+    },
+    "title": "One Way",
+    "genre": "action",
+    "releaseYear": 2022,
+    "durationMinutes": 164,
+    "rating": 7,
+    "id": "MOV0020",
+    "imagePath": "image-1713856607581-ov3ldygqg-MV5BZDJiMWQyMGYtZWQzNi00YzMyLTgyODYtOWM5YmJiM2RkNDYyXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "662697d2ff447700240cfa38"
+    },
+    "title": "Superman Legacy",
+    "genre": "Supernatural",
+    "releaseYear": 2025,
+    "durationMinutes": 100,
+    "rating": 10,
+    "id": "MOV0001",
+    "imagePath": "image-1713805266332-vdqmcmb0m-superman__legacy__2025__by_sahinduezguen_dg12gf5-fullview.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "662698fb6e6b868d329c08d6"
+    },
+    "title": "Deadpool 3",
+    "genre": "Supernatural",
+    "releaseYear": 2024,
+    "durationMinutes": 100,
+    "rating": 7,
+    "id": "MOV0002",
+    "imagePath": "image-1713805563609-vjund272y-DEADPOOL-3-POSTER-min.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b2819dab8a3be2d34f25"
+    },
+    "title": "The Boys",
+    "genre": "Supernatural",
+    "releaseYear": 2023,
+    "durationMinutes": 90,
+    "rating": 8,
+    "id": "MOV0003",
+    "imagePath": "image-1713812097782-ch0vqaupz-MV5BODI5NDUxNjAtZTIxYS00N2M1LWI5NmItODBmM2QyNTU4ZDY4XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b2819dab8a3be2d34f26"
+    },
+    "title": "Joker",
+    "genre": "Drama",
+    "releaseYear": 2026,
+    "durationMinutes": 178,
+    "rating": 9.6,
+    "id": "MOV0004",
+    "imagePath": "image-1713812097787-wo911c0bw-37472853072716025-xqjsuwiihnPk5YTYgJQRTSfkQr6.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b37e9dab8a3be2d34f27"
+    },
+    "title": "Madame Web",
+    "genre": "Supernatural",
+    "releaseYear": 2023,
+    "durationMinutes": 176,
+    "rating": 5,
+    "id": "MOV0005",
+    "imagePath": "image-1713812350680-gss9dy1sq-gbz5wAan81Z2USmW8O1wMFfhkNO.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b37e9dab8a3be2d34f28"
+    },
+    "title": "Dune",
+    "genre": "Adventure",
+    "releaseYear": 2024,
+    "durationMinutes": 189,
+    "rating": 10,
+    "id": "MOV0006",
+    "imagePath": "image-1713812350682-lkvlzmo2a-Haley-Turnbull_Dune2.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6626b37e9dab8a3be2d34f29"
+    },
+    "title": "Godzilla x Kong",
+    "genre": "Supernatural",
+    "releaseYear": 2024,
+    "durationMinutes": 117,
+    "rating": 6.8,
+    "id": "MOV0007",
+    "imagePath": "image-1713812350695-qc93jyrgn-godzilla-x-kong--2024--official-movie-poster-308387.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66274d0e15f4580af29be584"
+    },
+    "title": "The Garfield Movie",
+    "genre": "Animation",
+    "releaseYear": 2024,
+    "durationMinutes": 111,
+    "rating": 7.9,
+    "id": "MOV0008",
+    "imagePath": "image-1713851662890-abmj20d54-MV5BMzFiYjk5ODMtMDZmYS00ZGRhLThkZWMtZjljZmE5NzBiMzYyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66274d0e15f4580af29be585"
+    },
+    "title": "Mai",
+    "genre": "Drama",
+    "releaseYear": 2024,
+    "durationMinutes": 131,
+    "rating": 6.8,
+    "id": "MOV0009",
+    "imagePath": "image-1713851662894-76k3inmml-MV5BMjAwMGEwNTgtMWJmOC00MDQ5LTljMzYtMmE0YmE3OWM3NzEwXkEyXkFqcGdeQXVyMTAyNDY2OTAy._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66274d0e15f4580af29be586"
+    },
+    "title": "12 Monkeys",
+    "genre": "Thriller",
+    "releaseYear": 1995,
+    "durationMinutes": 129,
+    "rating": 8,
+    "id": "MOV0010",
+    "imagePath": "image-1713851662907-imaslewtf-MV5BN2Y2OWU4MWMtNmIyMy00YzMyLWI0Y2ItMTcyZDc3MTdmZDU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY1200_CR88,0,630,1200_AL_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275bdd979a287d68027b1e"
+    },
+    "title": "Poor things",
+    "genre": "Drama",
+    "releaseYear": 2023,
+    "durationMinutes": 100,
+    "rating": 10,
+    "id": "MOV0011",
+    "imagePath": "image-1713855453243-47tlggu7g-MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhZDk3NGJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275cac979a287d68027b1f"
+    },
+    "title": "Napoleon",
+    "genre": "History",
+    "releaseYear": 2023,
+    "durationMinutes": 124,
+    "rating": 8.9,
+    "id": "MOV0012",
+    "imagePath": "image-1713855660695-p9288nuhq-MV5BZWIzNDAxMTktMDMzZS00ZjJmLTlhNjYtOGUxYmZlYzVmOGE4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275d49979a287d68027b20"
+    },
+    "title": "65 ",
+    "genre": "Sci-Fi",
+    "releaseYear": 2023,
+    "durationMinutes": 213,
+    "rating": 6.8,
+    "id": "MOV0013",
+    "imagePath": "image-1713855817476-54x7ih05v-MV5BOWQ2ZTQxYzctZDI2Yy00YzU1LTkyYWUtNDdlNzBkOWQzMTkxXkEyXkFqcGdeQXVyMTU2Mjg2NjE2._V1_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275e5e5f933d3e2ce285a9"
+    },
+    "title": "Carter",
+    "genre": "Sci-Fi",
+    "releaseYear": 2023,
+    "durationMinutes": 134,
+    "rating": 8.9,
+    "id": "MOV0014",
+    "imagePath": "image-1713856094106-2f4myc8wb-MV5BMDk2YTQ3OGQtOWI5Yi00ZWI2LTk5MGQtOTUyNzFkZDcyNDM0XkEyXkFqcGdeQXVyMTQ3ODE5MjY0._V1_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275f315f933d3e2ce285aa"
+    },
+    "title": "Monica",
+    "genre": "Adventure",
+    "releaseYear": 2022,
+    "durationMinutes": 135,
+    "rating": 4,
+    "id": "MOV0015",
+    "imagePath": "image-1713856305750-k3xohtm7f-MV5BZjAxMWI4MzEtNjA5MC00NjM5LWFmN2YtMWZiYzY3ZDZhM2EwXkEyXkFqcGdeQXVyMTU3NDU4MDg2._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275f605f933d3e2ce285ab"
+    },
+    "title": "The North Man",
+    "genre": "Adventure",
+    "releaseYear": 2022,
+    "durationMinutes": 231,
+    "rating": 8,
+    "id": "MOV0016",
+    "imagePath": "image-1713856352060-24ugn3b3k-MV5BMzVlMmY2NTctODgwOC00NDMzLWEzMWYtM2RiYmIyNTNhMTI0XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275f9d5f933d3e2ce285ac"
+    },
+    "title": "Showing Up",
+    "genre": "Comedy",
+    "releaseYear": 2022,
+    "durationMinutes": 178,
+    "rating": 9,
+    "id": "MOV0017",
+    "imagePath": "image-1713856411691-canc76d97-MV5BNTIxODkxMDYtNDIxMC00NzU4LTgzYjgtZjkyNDVlNmRmNDNhXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66275ff65f933d3e2ce285ae"
+    },
+    "title": "The Batman",
+    "genre": "action",
+    "releaseYear": 2022,
+    "durationMinutes": 243,
+    "rating": 8.6,
+    "id": "MOV0018",
+    "imagePath": "image-1713856502628-mqt1scx1s-MV5BM2MyNTAwZGEtNTAxNC00ODVjLTgzZjUtYmU0YjAzNmQyZDEwXkEyXkFqcGdeQXVyNDc2NTg3NzA@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6627602f5f933d3e2ce285af"
+    },
+    "title": "Nope",
+    "genre": "Scary",
+    "releaseYear": 2022,
+    "durationMinutes": 185,
+    "rating": 1.8,
+    "id": "MOV0019",
+    "imagePath": "image-1713856559562-wmzreqpbn-MV5BOGJhYzAwN2MtNjA1Ny00ZjJiLWFmNzYtMDgzNTUzYjc5NTIzXkEyXkFqcGdeQXVyMTUzOTcyODA5._V1_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6627605f5f933d3e2ce285b0"
+    },
+    "title": "One Way",
+    "genre": "action",
+    "releaseYear": 2022,
+    "durationMinutes": 164,
+    "rating": 7,
+    "id": "MOV0020",
+    "imagePath": "image-1713856607581-ov3ldygqg-MV5BZDJiMWQyMGYtZWQzNi00YzMyLTgyODYtOWM5YmJiM2RkNDYyXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "662760eaad2ad0493dba4b60"
+    },
+    "title": "Ocean's Secret",
+    "genre": "Thriller",
+    "releaseYear": 2023,
+    "durationMinutes": 115,
+    "rating": 7.2,
+    "id": "MOV0021",
+    "imagePath": "image-1713856746524-zn3om1e2i-1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66276116ad2ad0493dba4b61"
+    },
+    "title": "Dream Catcher",
+    "genre": "Fantasy",
+    "releaseYear": 2023,
+    "durationMinutes": 122,
+    "rating": 7.9,
+    "id": "MOV0022",
+    "imagePath": "image-1713856790029-dgcflmcxp-2.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "6627614aad2ad0493dba4b62"
+    },
+    "title": "Desert Mirage",
+    "genre": "Adventure",
+    "releaseYear": 2023,
+    "durationMinutes": 110,
+    "rating": 7,
+    "id": "MOV0023",
+    "imagePath": "image-1713856842239-5g6b239ub-3.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66276189ad2ad0493dba4b63"
+    },
+    "title": "The Last Stand",
+    "genre": "Action",
+    "releaseYear": 2023,
+    "durationMinutes": 128,
+    "rating": 7.6,
+    "id": "MOV0024",
+    "imagePath": "image-1713856905806-tay1dj4v4-4.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "662761bfad2ad0493dba4b64"
+    },
+    "title": "Moonlight Sonata",
+    "genre": "Drama",
+    "releaseYear": 2023,
+    "durationMinutes": 105,
+    "rating": 8.3,
+    "id": "MOV0025",
+    "imagePath": "image-1713856959118-i9rh5x3aw-5.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66276204ad2ad0493dba4b65"
+    },
+    "title": "Spectral Encounter",
+    "genre": "Horror",
+    "releaseYear": 2023,
+    "durationMinutes": 95,
+    "rating": 7.4,
+    "id": "MOV0026",
+    "imagePath": "image-1713857028234-bcb1u1weo-6.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66276262ad2ad0493dba4b66"
+    },
+    "title": "Jungle Expedition",
+    "genre": "Adventure",
+    "releaseYear": 2022,
+    "durationMinutes": 118,
+    "rating": 7.1,
+    "id": "MOV0027",
+    "imagePath": "image-1713857122218-nte5rpxmk-7.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "66276292ad2ad0493dba4b67"
+    },
+    "title": "The Enigma",
+    "genre": "Mystery",
+    "releaseYear": 2021,
+    "durationMinutes": 110,
+    "rating": 7.8,
+    "id": "MOV0028",
+    "imagePath": "image-1713857170192-wch1rordl-8.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "662762c6ad2ad0493dba4b68"
+    },
+    "title": "Echoes of Eternity",
+    "genre": "Sci-Fi",
+    "releaseYear": 2020,
+    "durationMinutes": 135,
+    "rating": 8,
+    "id": "MOV0029",
+    "imagePath": "image-1713857222133-7fk9su829-9.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "662762fcad2ad0493dba4b69"
+    },
+    "title": "Aurora's Embrace",
+    "genre": "Romance",
+    "releaseYear": 2023,
+    "durationMinutes": 112,
+    "rating": 7.5,
+    "id": "MOV0030",
+    "imagePath": "image-1713857276466-4t9c8vf1k-10.jpg"
+  }]
+
+

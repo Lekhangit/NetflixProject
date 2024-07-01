@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../stylesheets/read-for-update.css">
+    <script
+      src="https://kit.fontawesome.com/7433d3320f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Search for Update Movies</title>
+</head>
+<body>
+    <h1>Search for Update Movies</h1>
+    <i class="fa-solid fa-house" id="logo" onclick="goToHome()"></i>
+    <form id="searchForm">
+        <label for="id">Movie ID:</label>
+        <input type="text" id="id" name="id" required><br>
+        <button type="button" onclick="searchAndUpdateResults()">Submit</button>
+        <button type="button" onclick="resetForm()">Reset</button>
+    </form>
+    <div id="searchResults"></div>
+    <div id="paginationControls"></div>
+    <script>
+        let currentPage = 1;
+        const moviesPerPage = 8;
+
+        function searchAndUpdateResults() {
+    const movieId = document.getElementById('id').value.trim();
+    if (!movieId) {
+        alert('Vui lòng nhập mã ID phim');
+        return;
+    }
+    fetch(`/read/for/update?id=${movieId}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                alert(data.error);
+            } else if (data.length === 0) {
+                alert('Không tìm thấy phim');
+            } else {
+                if (data.length === 1) {
+                    const movie = data[0];
+                    redirectToUpdatePage(movie);
+                } else {
+                    displayMovies(data);
+                }
+            }
+        })
+        .catch(error => {
+            console.error('Lỗi khi tìm kiếm:', error);
+            alert('Đã xảy ra lỗi trong quá trình tìm kiếm');
+        });
+}
+
+function redirectToUpdatePage(movie) {
+    const queryParams = new URLSearchParams({
+        id: movie.id,
+        title: movie.title,
+        genre: movie.genre,
+        releaseYear: movie.releaseYear,
+        durationMinutes: movie.durationMinutes,
+        rating: movie.rating
+    }).toString();
+    window.location.href = `update.html?${queryParams}`;
+}
+
+        
+        function displayMovies(movies) {
+            const searchResultsContainer = document.getElementById('searchResults');
+            searchResultsContainer.innerHTML = '';
+            const totalPages = Math.ceil(movies.length / moviesPerPage);
+            const startIndex = (currentPage - 1) * moviesPerPage;
+            const endIndex = Math.min(startIndex + moviesPerPage, movies.length);
+
+            for (let i = startIndex; i < endIndex; i++) {
+                const movie = movies[i];
+                const movieRow = document.createElement('div');
+                movieRow.classList.add('movie');
+                movieRow.innerHTML = `
+                    <img src="${movie.imagePath}" alt="${movie.title}" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px;">
+                    <div class="movie-info">
+                        <p><strong>Title:</strong> ${movie.title}</p>
+                        <p><strong>Genre:</strong> ${movie.genre}</p>
+                        <p><strong>Release Year:</strong> ${movie.releaseYear}</p>
+                        <p><strong>Duration:</strong> ${movie.durationMinutes} min</p>
+                        <p><strong>Rating:</strong> ${movie.rating}</p>
+                    <button class="edit-button" onclick="editMovie('${movie.id}', '${movie.title}', '${movie.genre}', '${movie.releaseYear}', '${movie.durationMinutes}', '${movie.rating}')">Edit</button>
+                    </div>
+                `;
+                searchResultsContainer.appendChild(movieRow);
+            }
+            updatePaginationControls(totalPages);
+        }
+
+        function updatePaginationControls(totalPages) {
+            const paginationControls = document.getElementById('paginationControls');
+            
+            paginationControls.innerHTML = '';
+            
+            for (let i = 1; i <= totalPages; i++) {
+                const button = document.createElement('button');
+                button.innerText = i;
+                button.addEventListener('click', () => {
+                    currentPage = i;
+                    searchAndUpdateResults();
+                });
+                paginationControls.appendChild(button);
+            }
+        }
+
+        function editMovie(movieId, title, genre, releaseYear, durationMinutes, rating) {
+            const queryParams = new URLSearchParams({
+                id: movieId,
+                title: title,
+                genre: genre,
+                releaseYear: releaseYear,
+                durationMinutes: durationMinutes,
+                rating: rating
+            }).toString();
+            window.location.href = `update.html?${queryParams}`;
+        }
+
+        function resetForm() {
+            document.getElementById('searchForm').reset();
+            setFocusTitle();
+        }
+
+        function setFocusTitle() {
+            document.getElementById('id').focus();
+        }
+
+        function goToHome() {
+            window.location.href = 'home.html';
+        }
+    </script>
+</body>
+</html>
